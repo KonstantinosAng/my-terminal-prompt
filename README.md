@@ -5,6 +5,6 @@
 ## Examples
 
 <p align='center'>
-  <h2> (Time) user current_directory (No.Files - FileSize) </h2>
+  <p> (Time) user current_directory (No.Files - FileSize) </p>
   <img src="./img/img1.png"/>
 </p>
