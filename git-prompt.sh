@@ -1,17 +1,3 @@
-# add this to GITPATH/etc/profile.d/git-prompt.sh
-# run these commands
-# git config --global color.ui auto
-# git config --global color.branch auto
-# git config --global color.diff auto
-# git config --global color.interactive auto
-# git config --global color.status auto
-
-GIT_PS1_SHOWDIRTYSTATE=1
-GIT_PS1_SHOWUNTRACKEDFILES=1
-GIT_PS1_SHOWCOLORHINTS=1
-GIT_PS1_SHOWSTASHSTATE=1
-GIT_PS1_SHOWUPSTREAM="auto"
-
 if test -f /etc/profile.d/git-sdk.sh
 then
 	TITLEPREFIX=SDK-${MSYSTEM#MINGW}
