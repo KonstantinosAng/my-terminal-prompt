@@ -11,7 +11,7 @@ Tested with Git Bash. It requires Git. Inside the Git Bash directory rename git-
 
 cd C:\Program Files\Git\etc\profile.d\ && rename git-prompt.sh git-prompt.backup
 
-cd %homepath% && git clone https://github.com/KonstantinosAng/my-terminal-prompt && cd my-terminal-prompt && copy git-prompt.sh "C:\Program Files\Git\etc\profile.d\git-prompt.sh"
+cd %homepath% && git clone https://github.com/KonstantinosAng/my-terminal-prompt && cd my-terminal-prompt && copy git-prompt.sh "C:\Program Files\Git\etc\profile.d\"
 
 ```
 
