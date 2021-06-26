@@ -2,6 +2,27 @@
 
 ## Installation
 
+### Windows
+
+Tested with Git Bash. It requires Git. Inside the Git Bash directory rename git-prompt.sh to git-prompt.backup and add [my git-prompt.sh file](git-prompt.sh)
+
+```bash
+# Rename currect git bash profile for backup
+
+mv C:\Program Files\Git\etc\profile.d\git-prompt.sh C:\Program Files\Git\etc\profile.d\git-prompt.backup
+
+cd ~ && git clone https://github.com/KonstantinosAng/my-terminal-prompt && cd my-terminal-prompt cp git-prompt.sh C:\Program Files\Git\etc\profile.d\
+
+```
+
+### Linux
+
+Tested in Ubuntu. It requires Git. 
+
+```bash
+
+```
+
 ## Examples
 
 <p align='center'>
