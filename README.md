@@ -4,14 +4,14 @@
 
 ### Windows
 
-Tested with Git Bash. It requires Git. Inside the Git Bash directory rename git-prompt.sh to git-prompt.backup and add [my git-prompt.sh file](git-prompt.sh)
+Tested with Git Bash. It requires Git. Inside the Git Bash directory rename git-prompt.sh to git-prompt.backup and add [my git-prompt.sh file](git-prompt.sh). Run the following command with cmd administrator. Then open Git Bash to see the result.
 
 ```bash
 # Rename currect git bash profile for backup
 
-mv C:\Program Files\Git\etc\profile.d\git-prompt.sh C:\Program Files\Git\etc\profile.d\git-prompt.backup
+cd C:\Program Files\Git\etc\profile.d\ && rename git-prompt.sh git-prompt.backup
 
-cd ~ && git clone https://github.com/KonstantinosAng/my-terminal-prompt && cd my-terminal-prompt cp git-prompt.sh C:\Program Files\Git\etc\profile.d\
+cd %homepath% && git clone https://github.com/KonstantinosAng/my-terminal-prompt && cd my-terminal-prompt && copy git-prompt.sh "C:\Program Files\Git\etc\profile.d\git-prompt.sh"
 
 ```
 
