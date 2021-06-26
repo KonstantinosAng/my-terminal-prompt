@@ -15,14 +15,6 @@ cd %homepath% && git clone https://github.com/KonstantinosAng/my-terminal-prompt
 
 ```
 
-### Linux
-
-Tested in Ubuntu. It requires Git. 
-
-```bash
-
-```
-
 ## Examples
 
 <p align='center'>
